@@ -1,9 +1,11 @@
 * { 
 	font-family: arial;
+
 }
 
   a {
-  	color:red;
+  	color:green;
+  	text-decoration: none;
   }
   p {
   	background: #000;
@@ -16,11 +18,12 @@
 
 * { 
 	
-	   color: red;
+	   color: green;
+	   text-decoration: none;
 }
 
  body {
-	   background-image: url("salsa.jpg");
+	   background-image: url("green_arrow_wallpaper_1080p_8015.jpg");
 	   background-size: 100%;
 
 }
@@ -38,8 +41,8 @@
 
 
    header h1 {
-	background: #555;
-	color: white;
+	;
+	color: green;
 	margin: 0;
 	display: inline; 
 	padding: 0px;
@@ -48,7 +51,7 @@
 
    header {
    
-   	color:white;
+   	color:green;
    	padding: 0;
    }
 
@@ -60,13 +63,14 @@ nav ul li {
 	list-style-type: none;
 	margin: 0px;
 	padding: 5px 15px;
-	background: #000;
-	color: white;
+	text-decoration: none; 
+	color: green;
 	float: right;
 
 } 
   nav ul li a{
-  	color: yellow;
+  	color: green;
+  	text-decoration: none;
   }
 
 body {
@@ -90,16 +94,15 @@ br {
 }
 
 footer {
+	
+
 	clear: both;
-	padding: 0 0 100px 0;
-	position: absolute;
-	bottom: 0px;
-	float: right;
+    position: absolute;
+    bottom: 0px;
+ 
 }
 
-p {
-	border-style: dotted solid;
-}
+
 
   p {
   	text-align: center;
