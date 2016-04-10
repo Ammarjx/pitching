@@ -3,7 +3,9 @@
  </tr><% @list.each do |monkey| %>
  <tr>
    <td><%= monkey.name %></td>
+
    <td><%= monkey.weight %></td> 
+
  </tr>
 <% end %>
 </table><br /><%= link_to 'New monkey', :action => 'new' %>

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  # You can have the root of your site routed with "root"
+  root 'aboutme#index'
 
   get 'animals/view_animals'
 
@@ -22,11 +24,15 @@ Rails.application.routes.draw do
   post "user/save_user"
 
   get "user/view_user"
+  get "monkies/list"
+  get "monkies/list/:name_of_monkies"  => "monkies#list_monkey"
 
   get "user/vie_user"
-
+  post "monkies/create"
+  get 'monkies/new'
   get "monkies" => "monkies#index"
 
+  
   get "monkies/new"
   post "monkies/create"
 
@@ -34,6 +40,7 @@ Rails.application.routes.draw do
   get "monkies/list"
   get "monkies/list/:name_of_monkies" => "monkies#list_monkey"
   
+
   get "monkies/:number_of_monkies" => "monkies#index"
 
 
@@ -43,7 +50,7 @@ Rails.application.routes.draw do
 
   get "user/view_user"
 
-  get "user/vie_user"
+  get "user/view_user"
 
   get "cats" => "cats#index"
   get "cats/:number_of_cats" => "cats#index"
@@ -54,8 +61,6 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
