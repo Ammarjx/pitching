@@ -26,7 +26,16 @@ Rails.application.routes.draw do
   get "user/vie_user"
 
   get "monkies" => "monkies#index"
+
+  get "monkies/new"
+  post "monkies/create"
+
+
+  get "monkies/list"
+  get "monkies/list/:name_of_monkies" => "monkies#list_monkey"
+  
   get "monkies/:number_of_monkies" => "monkies#index"
+
 
 
   get "user/save_user"
