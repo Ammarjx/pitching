@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-  <title>
-    Welcome
-  </title>
-
-
-
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+            <%= csrf_meta_tags %>
+                <title>
+                    Welcome
+                </title>
 </head>
+
 <body>
-
-   <header>
-
-      <h1>Hello</h1>
-      <nav>
+    <header>
+        <h1>Hello</h1>
+        <nav>
             <ul>
-               <li><a href="/sport"> sport </a></li>
-               <li><a href="/aboutme">aboutme </a></li>
-               <li><a href="/hobbies"> hobbies </a></li>
-               <li><a href="/cats"> cats </a></li>
-               <li><a href="/monkies"> monkies </a></li>
-              <li><a href="/monkies/list"> monkies list </a></li>
-               <li><a href="/monkies/new"> new monkies </a></li>
+                <li><a href="/sport"> sport </a></li>
+                <li><a href="/aboutme">aboutme </a></li>
+                <li><a href="/hobbies"> hobbies </a></li>
+                <li><a href="/cats"> cats </a></li>
+                <li><a href="/monkies"> monkies </a></li>
+                <li><a href="/monkies/list"> monkies list </a></li>
+                <li><a href="/monkies/new"> new monkies </a></li>
+                <li class="link">
+                    <a href="/backround"> backround </a>
+                    <div class="roll">
+                        <p>backround1</p>
+                        <p>backround2</p>
+                        <p>backround3</p>
+                        <p>backround4</p>
+                        <p>backround5</p>
+                    </div>
+                </li>
             </ul>
-      </nav>
-   </header>
-
-<%= yield %>
-
-
-       <a href="https://www.facebook.com/ammar.jx">Aj</a>
-
-
-
-      <footer> 
-              My Site   
-
-      </footer>
-
-
-
+        </nav>
+    </header>
+    <%= yield %>
+        <a href="https://www.facebook.com/ammar.jx">Aj</a>
+        <img class="img" src="/assets/Arrow-Wallpaper.jpg">
+        <footer>
+            My Site
+        </footer>
 </body>
+
 </html>

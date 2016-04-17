@@ -1,0 +1,3 @@
+class BackroundController < ApplicationController
+
+end

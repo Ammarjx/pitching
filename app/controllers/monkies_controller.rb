@@ -12,7 +12,6 @@ class MonkiesController < ApplicationController
     end
   end
 
-<<<<<<< HEAD
    def list_monkey
 
    	   monkey_name = params[:name_of_monkies]
@@ -58,27 +57,5 @@ class MonkiesController < ApplicationController
 
 
 
-=======
-  def new
-    @monkey=Monkey.new
-  end
 
-  def create
-    @monkey = Monkey.new
-    permitted_params = params.require(:monkey).permit(:name, :weight)
-    if @monkey.save
-      render :action =>"new"
-    else
-      render :action =>"new"
-    end
-  end
-
-  def list
-  	@list=Monkey.all
-  end
-
-  	def list_monkey
-  		monkey_name=params[:name_of_monkies]
-	end
->>>>>>> fd4e06a2fd72da67d7f44d6db3ba3f7195e2a877
 end

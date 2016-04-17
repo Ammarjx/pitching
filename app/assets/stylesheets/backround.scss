@@ -1,0 +1,31 @@
+.img {
+
+    opacity: 0.0;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -100;
+
+
+}
+
+.roll{
+
+  position: absolute;
+  display: none;
+  opacity: 0.8;
+  
+}
+
+.link{
+  &:hover{
+  	  .roll{
+  	     	background-color: white;
+  	     	display: list-item;
+  	}
+  }
+
+
+}

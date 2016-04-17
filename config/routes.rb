@@ -19,6 +19,7 @@ Rails.application.routes.draw do
 
   get "welcome/putton"
 
+  get "backround" => "backround#index"
 
   get "user/save_user"
   post "user/save_user"
