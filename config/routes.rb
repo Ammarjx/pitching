@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'hero/index'
+
   # You can have the root of your site routed with "root"
   root 'aboutme#index'
 

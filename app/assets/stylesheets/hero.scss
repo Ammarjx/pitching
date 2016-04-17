@@ -1,0 +1,32 @@
+.hero-unit{
+	position: relative;
+	height: 600px;
+	background-color: rgba(0, 128, 0, 0.34);
+
+	// flex rules
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	.hero-image{ 
+		background-image: url(https://a1.muscache.com/airbnb/static/landing_pages/pretzel/slideshow/hero2-d3f476cd0cd289d1750fa6cd58b9d519.jpg);
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		left: 0px;
+
+	}
+	.hero-text{
+		text-align: center;
+		z-index: 1;
+		h2{
+			font-size: 35px;
+			text-transform: uppercase;
+
+		}
+		h4{
+
+		}
+	}
+}

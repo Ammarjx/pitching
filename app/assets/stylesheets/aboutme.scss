@@ -1,112 +1,103 @@
-* { 
-	font-family: arial;
-
+* {
+    font-family: arial;
 }
 
-  a {
-  	color:green;
-  	text-decoration: none;
-  }
-  p {
-  	background: #000;
-  	color: white;
-  	padding: 10px 0px 10px 10px;
-  	width:155px ;
-  	 
-  }
-
-
-* { 
-	
-	   color: green;
-	   text-decoration: none;
+a {
+    color: green;
+    text-decoration: none;
 }
 
- body {
-	   background-image: url("green_arrow_wallpaper_1080p_8015.jpg");
-	   margin: 0px;
+p {
+    background: #000;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    width: 155px;
 }
 
+* {
+    color: green;
+    text-decoration: none;
+    
+}
+
+body {
+    background-image: url("green_arrow_wallpaper_1080p_8015.jpg");
+    margin: 0px;
+
+}
 
 .secondary {
-	background: #999;
-	color: #323;	
+    background: #999;
+    color: #323;
 }
 
 #special {
-	background: #234;
-	color:#777;
+    background: #234;
+    color: #777;
 }
 
-
-   header h1 {
-	;
-	color: green;
-	margin: 0;
-	display: inline; 
-	padding: 0px;
-	width: 100px;
+header h1 {
+    ;
+    color: green;
+    margin: 0;
+    display: inline;
+    padding: 0px;
+    width: 100px;
 }
 
-   header {
-   
-   	color:green;
-   	padding: 0;
-   }
-
-nav ul{
-	margin: 0;
+header {
+    color: green;
+    padding: 0;
 }
+
+nav ul {
+    margin: 0;
+}
+
 nav ul li {
-	display: inline-block;
-	list-style-type: none;
-	margin: 0px;
-	padding: 5px 15px;
-	text-decoration: none; 
-	color: green;
-	float: right;
-
-} 
-  nav ul li a{
-  	color: green;
-  	text-decoration: none;
-  }
-
-body {
-	margin: 10px;
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: green;
+    float: right;
 }
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+
 
 .col {
-	float: left;
-	background: #333;
-	padding: 20px;
-	margin: 5px;
-	width:50;
+    float: left;
+    background: #333;
+    padding: 20px;
+    margin: 5px;
+    width: 50;
 }
 
-	ol{
-		clear: both;
-		width:50px ;
+ol {
+    clear: both;
+    width: 50px;
 }
+
 br {
-	width: 100px;
+    width: 100px;
 }
 
 footer {
-	
-
-	clear: both;
+    clear: both;
     position: absolute;
     bottom: 0px;
- 
 }
 
+p {
+    text-align: center;
+}
 
-
-  p {
-  	text-align: center;
-  }
-
-  .about-me-text{
-  	text-align: center
-  } 
+.about-me-text {
+    text-align: center
+}
